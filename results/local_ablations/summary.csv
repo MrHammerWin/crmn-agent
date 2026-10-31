@@ -1,0 +1,6 @@
+benchmark,variant,episodes,success_rate,success_ci_low,success_ci_high,mean_steps,input_tokens,output_tokens,model_calls,error_episodes,budget_episodes,estimated_usd
+babyai_text,map_only,5,0.0,0,0.43448246865939283,2.0,12170,1959,25,0,0,0.0
+babyai_text,no_cycle,5,0.0,0,0.43448246865939283,2.0,15782,2425,25,0,0,0.0
+babyai_text,no_prediction,5,0.0,0,0.43448246865939283,2.0,20616,3162,40,0,0,0.0
+babyai_text,no_reward,5,0.0,0,0.43448246865939283,2.0,22452,3473,45,0,0,0.0
+babyai_text,plan_only,5,0.0,0,0.43448246865939283,2.0,12029,1859,25,0,0,0.0

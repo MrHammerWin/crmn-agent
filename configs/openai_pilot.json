@@ -1,0 +1,25 @@
+{
+  "name": "openai_validation_pilot",
+  "purpose": "Validation pilot, not a final test; requires explicit paid authorization",
+  "split": "validation",
+  "benchmarks": ["textcraft", "babyai_text", "alfworld"],
+  "variants": ["react", "reflact", "crmn", "no_cycle", "no_prediction", "map_only", "plan_only"],
+  "seeds": [10001, 10002, 10003],
+  "max_steps": 50,
+  "history_turns": 8,
+  "provider": {
+    "backend": "openai",
+    "model": "gpt-6-luna",
+    "allow_paid": false,
+    "max_usd": 0,
+    "input_usd_per_million": 0.1,
+    "output_usd_per_million": 0.5,
+    "max_output_tokens": 448,
+    "max_calls": 5000,
+    "max_total_tokens": 5000000
+  },
+  "babyai_protocol": "balrog_mixed",
+  "alfworld_data": "data/alfworld",
+  "results_dir": "results/openai_pilot"
+}
+

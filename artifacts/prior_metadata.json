@@ -1,0 +1,7 @@
+{
+  "training_run": "results/local_train_v2/run.json",
+  "training_rows": 18,
+  "teacher_source_sha256": "23ce29a1af1f8fac7db86cb9fca115c7fd5cc2e98c4c8b0c3ccece2e74f76213",
+  "training_episodes_sha256": "34d2d2afdce0b10248f4e8980869fd1a4f5260075aa74e330cb7a2cc8ebd6c43",
+  "prior_sha256": "78449a8fd3d413452e4a38c9e3dfb505870e3b583f5ff5571f80bf8c1e7e9e6b"
+}

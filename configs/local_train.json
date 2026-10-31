@@ -1,0 +1,31 @@
+{
+  "name": "local_train_prior",
+  "purpose": "Training trajectories for responsibility-prior distillation; not test results",
+  "split": "train",
+  "benchmarks": [
+    "textcraft",
+    "babyai_text",
+    "alfworld"
+  ],
+  "variants": [
+    "crmn"
+  ],
+  "seeds": [
+    1
+  ],
+  "max_steps": 3,
+  "history_turns": 4,
+  "provider": {
+    "backend": "mlx",
+    "model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_path": "models/qwen2.5-1.5b-4bit",
+    "max_output_tokens": 448,
+    "max_calls": 1200,
+    "max_total_tokens": 2000000,
+    "max_usd": 0,
+    "structured_decoding": "outlines-json-schema"
+  },
+  "babyai_protocol": "balrog_mixed",
+  "alfworld_data": "data/alfworld",
+  "results_dir": "results/local_train"
+}

@@ -1,0 +1,10 @@
+benchmark,variant,episodes,success_rate,success_ci_low,success_ci_high,mean_steps,input_tokens,output_tokens,model_calls,error_episodes,budget_episodes,estimated_usd
+alfworld,crmn,1,0.0,0,0.7934506882081973,3.0,13010,1303,14,0,0,0.0
+alfworld,react,1,0.0,0,0.7934506882081973,3.0,3964,89,3,0,0,0.0
+alfworld,reflact,1,0.0,0,0.7934506882081973,3.0,4007,81,3,0,0,0.0
+babyai_text,crmn,5,0.0,0,0.43448246865939283,2.8,33969,5489,67,1,0,0.0
+babyai_text,react,5,0.0,0,0.43448246865939283,3.0,5270,314,15,0,0,0.0
+babyai_text,reflact,5,0.0,0,0.43448246865939283,3.0,5510,408,15,0,0,0.0
+textcraft,crmn,1,0.0,0,0.7934506882081973,3.0,9163,1066,14,0,0,0.0
+textcraft,react,1,0.0,0,0.7934506882081973,1.0,1486,92,2,1,0,0.0
+textcraft,reflact,1,0.0,0,0.7934506882081973,3.0,2331,129,3,0,0,0.0

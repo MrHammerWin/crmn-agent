@@ -1,0 +1,58 @@
+{
+  "kind": "handwritten_environment_positive_control",
+  "is_real_llm": false,
+  "success": false,
+  "steps": 10,
+  "trajectory": [
+    {
+      "action": "get 12 string",
+      "observation": "Got 12 string",
+      "reward": 0.0
+    },
+    {
+      "action": "craft 1 white wool using 4 string",
+      "observation": "Crafted 1 minecraft:white_wool",
+      "reward": 0.0
+    },
+    {
+      "action": "craft 1 white wool using 4 string",
+      "observation": "Crafted 1 minecraft:white_wool",
+      "reward": 0.0
+    },
+    {
+      "action": "craft 1 white wool using 4 string",
+      "observation": "Crafted 1 minecraft:white_wool",
+      "reward": 0.0
+    },
+    {
+      "action": "get 1 oak logs",
+      "observation": "Got 1 oak logs",
+      "reward": 0.0
+    },
+    {
+      "action": "craft 4 oak planks using 1 oak logs",
+      "observation": "Crafted 4 minecraft:oak_planks",
+      "reward": 0.0
+    },
+    {
+      "action": "craft 1 white bed using 3 white wool, 3 planks",
+      "observation": "Could not find enough items to craft minecraft:white_bed",
+      "reward": 0.0
+    },
+    {
+      "action": "get 1 orange tulip",
+      "observation": "Got 1 orange tulip",
+      "reward": 0.0
+    },
+    {
+      "action": "craft 1 orange dye using 1 orange tulip",
+      "observation": "Crafted 1 minecraft:orange_dye",
+      "reward": 0.0
+    },
+    {
+      "action": "craft 1 orange bed using 1 white bed, 1 orange dye",
+      "observation": "Could not find enough items to craft minecraft:orange_bed",
+      "reward": 0.0
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "open_loop_environment_feasibility_not_CRMN",
+  "is_real_llm": true,
+  "benchmark": "textcraft",
+  "split": "validation",
+  "seed": 10001,
+  "task_id": "739b80ed4a7aa2c58c62eb924bc908c75ed4879faf02b6f5486358d5b5d5a429",
+  "mission": "craft orange bed.",
+  "model": "gpt-5.6-luna",
+  "planned_actions": [
+    "get 12 string",
+    "craft 3 white wool using 4 string",
+    "get 1 oak logs",
+    "craft 4 oak planks using 1 oak logs",
+    "craft 1 white bed using 3 white wool, 3 planks",
+    "get 1 orange tulip",
+    "craft 1 orange dye using 1 orange tulip",
+    "craft 1 orange bed using 1 white bed, 1 orange dye"
+  ],
+  "executed_steps": 8,
+  "success": false,
+  "trajectory": [
+    {
+      "action": "get 12 string",
+      "observation": "Got 12 string",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "craft 3 white wool using 4 string",
+      "observation": "Crafted 1 minecraft:white_wool",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "get 1 oak logs",
+      "observation": "Got 1 oak logs",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "craft 4 oak planks using 1 oak logs",
+      "observation": "Crafted 4 minecraft:oak_planks",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "craft 1 white bed using 3 white wool, 3 planks",
+      "observation": "Could not find enough items to craft minecraft:white_bed",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "get 1 orange tulip",
+      "observation": "Got 1 orange tulip",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "craft 1 orange dye using 1 orange tulip",
+      "observation": "Crafted 1 minecraft:orange_dye",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "craft 1 orange bed using 1 white bed, 1 orange dye",
+      "observation": "Could not find enough items to craft minecraft:orange_bed",
+      "reward": 0.0,
+      "done": false
+    }
+  ],
+  "usage": {
+    "calls": 1,
+    "input_tokens": 14562,
+    "output_tokens": 262,
+    "estimated_usd": 0.0,
+    "seconds": 5.505251375027001,
+    "invalid_outputs": 0
+  }
+}

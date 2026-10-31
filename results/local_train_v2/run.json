@@ -1,0 +1,61 @@
+{
+  "created_at_utc": "2026-10-31T10:39:53.124352+00:00",
+  "config": {
+    "name": "local_train_observation_anchors",
+    "purpose": "Training trajectories for responsibility-prior distillation; not test results",
+    "split": "train",
+    "benchmarks": [
+      "textcraft",
+      "babyai_text",
+      "alfworld"
+    ],
+    "variants": [
+      "crmn"
+    ],
+    "seeds": [
+      1
+    ],
+    "max_steps": 3,
+    "history_turns": 4,
+    "provider": {
+      "backend": "mlx",
+      "model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "model_path": "models/qwen2.5-1.5b-4bit",
+      "max_output_tokens": 448,
+      "max_calls": 1200,
+      "max_total_tokens": 2000000,
+      "max_usd": 0,
+      "structured_decoding": "outlines-json-schema"
+    },
+    "babyai_protocol": "balrog_mixed",
+    "alfworld_data": "data/alfworld",
+    "results_dir": "results/local_train_v2"
+  },
+  "config_sha256": "0c5186eac8c39371872a6715733620266df216df925ad78ca9f6eb60fc92267c",
+  "code_sha256": "23ce29a1af1f8fac7db86cb9fca115c7fd5cc2e98c4c8b0c3ccece2e74f76213",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "pydantic": "2.14.2",
+    "numpy": "2.5.4",
+    "openai": "3.42.0",
+    "mlx-lm": "0.32.2",
+    "outlines": "1.3.3",
+    "textcraft": "0.0.3",
+    "minigrid": "2.3.1",
+    "alfworld": "0.4.2",
+    "textworld": "1.7.0"
+  },
+  "pythonhashseed": "0",
+  "is_real_llm": true,
+  "study_status": "engineering_pilot_not_SOTA_evidence",
+  "finished_status": "completed",
+  "total_usage": {
+    "calls": 86,
+    "input_tokens": 45867,
+    "output_tokens": 6646,
+    "estimated_usd": 0.0,
+    "seconds": 91.73260104085784,
+    "invalid_outputs": 0
+  }
+}

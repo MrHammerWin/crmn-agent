@@ -1,0 +1,13 @@
+{
+  "split": "train",
+  "tasks": {
+    "textcraft/default/1": "5a6194975130d41c20fd4294e783e684cb8ea20d88d091395a0706f0c398fd6a",
+    "babyai_text/goto/1": "goto:104730",
+    "babyai_text/pickup/1": "pickup:1047291",
+    "babyai_text/open/1": "open:1",
+    "babyai_text/putnext/1": "putnext:418917",
+    "babyai_text/pick_up_seq_go_to/1": "pick_up_seq_go_to:1256749",
+    "alfworld/default/1": "json_2.1.1/train/look_at_obj_in_light-AlarmClock-None-DeskLamp-301/trial_T20190907_174142_375532/game.tw-pddl"
+  },
+  "warning": "Validate task ID disjointness against ALL other split manifests"
+}

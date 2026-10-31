@@ -1,0 +1,26 @@
+{
+  "name": "final_test_TEMPLATE_NOT_RUN",
+  "purpose": "Template only. Requires frozen test tasks, model authorization and a reviewed positive budget.",
+  "split": "test",
+  "frozen_manifest": "local/manifests/final_test.json",
+  "benchmarks": ["alfworld", "textcraft", "babyai_text"],
+  "variants": ["react", "reflact", "crmn", "no_cycle", "no_prediction", "no_reward", "map_only", "plan_only"],
+  "seeds": [20001, 20002, 20003, 20004, 20005],
+  "max_steps": 128,
+  "history_turns": 8,
+  "provider": {
+    "backend": "openai",
+    "model": "gpt-6-luna",
+    "allow_paid": false,
+    "max_usd": 0,
+    "input_usd_per_million": 0.1,
+    "output_usd_per_million": 0.5,
+    "max_output_tokens": 768,
+    "max_calls": 100000,
+    "max_total_tokens": 20000000
+  },
+  "babyai_protocol": "balrog_mixed",
+  "alfworld_data": "data/alfworld",
+  "prior_path": "local/checkpoints/prior.json",
+  "results_dir": "results/final_test"
+}

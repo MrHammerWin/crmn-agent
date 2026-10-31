@@ -1,0 +1,33 @@
+{
+  "name": "local_structured_engineering_smoke",
+  "purpose": "Real local Qwen engineering smoke with constrained decoding; NOT a SOTA comparison",
+  "split": "validation",
+  "benchmarks": [
+    "textcraft",
+    "babyai_text",
+    "alfworld"
+  ],
+  "variants": [
+    "react",
+    "reflact",
+    "crmn"
+  ],
+  "seeds": [
+    10001
+  ],
+  "max_steps": 4,
+  "history_turns": 4,
+  "provider": {
+    "backend": "mlx",
+    "model": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_path": "models/qwen2.5-1.5b-4bit",
+    "max_output_tokens": 448,
+    "max_calls": 800,
+    "max_total_tokens": 1000000,
+    "max_usd": 0,
+    "structured_decoding": "outlines-json-schema"
+  },
+  "babyai_protocol": "balrog_mixed",
+  "alfworld_data": "data/alfworld",
+  "results_dir": "results/local_structured_smoke"
+}

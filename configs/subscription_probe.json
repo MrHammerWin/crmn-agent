@@ -1,0 +1,27 @@
+{
+  "name": "subscription_integration_probe",
+  "purpose": "Authorized ChatGPT-subscription integration checks, NOT full benchmark/SOTA scores",
+  "split": "validation",
+  "benchmarks": ["textcraft", "babyai_text", "alfworld"],
+  "tasks": {"babyai_text": ["goto"]},
+  "variants": ["react", "reflact", "crmn"],
+  "seeds": [10001],
+  "max_steps": 1,
+  "episode_steps": {"babyai_text": 2},
+  "history_turns": 4,
+  "provider": {
+    "backend": "codex",
+    "model": "gpt-5.6-luna",
+    "allow_subscription": true,
+    "subscription_max_launches": 30,
+    "subscription_ledger": "local/subscription_budget.json",
+    "max_calls": 26,
+    "max_total_tokens": 1000000,
+    "max_usd": 0,
+    "timeout_seconds": 180
+  },
+  "babyai_protocol": "balrog_mixed",
+  "alfworld_data": "data/alfworld",
+  "prior_path": "local/checkpoints/prior.json",
+  "results_dir": "results/subscription_integration"
+}

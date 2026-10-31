@@ -1,0 +1,9 @@
+{
+  "kind": "synthetic_controller_diagnostic",
+  "is_real_llm": false,
+  "benchmark": null,
+  "seed": 1729,
+  "cases": 500,
+  "correct": 500,
+  "interpretation": "Checks gate direction on explicit fact loss, not metacognitive ability"
+}

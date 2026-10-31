@@ -1,0 +1,4 @@
+benchmark,variant,episodes,success_rate,success_ci_low,success_ci_high,mean_steps,input_tokens,output_tokens,model_calls,error_episodes,budget_episodes,estimated_usd
+alfworld,crmn,1,0.0,0,0.7934506882081973,0.0,702,382,1,1,0,0.0
+babyai_text,crmn,5,0.0,0,0.43448246865939283,1.6,27921,4343,55,4,0,0.0
+textcraft,crmn,1,0.0,0,0.7934506882081973,3.0,9708,1475,17,0,0,0.0

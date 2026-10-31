@@ -1,0 +1,74 @@
+{
+  "textcraft:crmn-minus-react": {
+    "paired_n": 1,
+    "a_only": 0,
+    "b_only": 0,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_seed": 1729,
+    "samples": 10000
+  },
+  "textcraft:crmn-minus-reflact": {
+    "paired_n": 1,
+    "a_only": 0,
+    "b_only": 0,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_seed": 1729,
+    "samples": 10000
+  },
+  "babyai_text:crmn-minus-react": {
+    "paired_n": 5,
+    "a_only": 0,
+    "b_only": 0,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_seed": 1729,
+    "samples": 10000
+  },
+  "babyai_text:crmn-minus-reflact": {
+    "paired_n": 5,
+    "a_only": 0,
+    "b_only": 0,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_seed": 1729,
+    "samples": 10000
+  },
+  "alfworld:crmn-minus-react": {
+    "paired_n": 1,
+    "a_only": 0,
+    "b_only": 0,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_seed": 1729,
+    "samples": 10000
+  },
+  "alfworld:crmn-minus-reflact": {
+    "paired_n": 1,
+    "a_only": 0,
+    "b_only": 0,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_seed": 1729,
+    "samples": 10000
+  }
+}

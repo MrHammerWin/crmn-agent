@@ -1,0 +1,7 @@
+{
+  "protocol": "Seed namespaces are disjoint; TextCraft task identities must also be checked, not only seeds",
+  "train_seeds": [1, 2, 3, 4, 5],
+  "validation_seeds": [10001, 10002, 10003],
+  "test_seeds": [20001, 20002, 20003, 20004, 20005],
+  "warning": "These are pilot namespaces, not the original ADaPT train/test task split. Freeze official task manifests before final evaluation."
+}

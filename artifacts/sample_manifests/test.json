@@ -1,0 +1,13 @@
+{
+  "split": "test",
+  "tasks": {
+    "textcraft/default/20001": "4835d235328ec63b840dd94bb6887ed0d3d9b8dc45a205586bf88f89184adae1",
+    "babyai_text/goto/20001": "goto:334188",
+    "babyai_text/pickup/20001": "pickup:229459",
+    "babyai_text/open/20001": "open:124730",
+    "babyai_text/putnext/20001": "putnext:20001",
+    "babyai_text/pick_up_seq_go_to/20001": "pick_up_seq_go_to:648375",
+    "alfworld/default/20001": "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/game.tw-pddl"
+  },
+  "warning": "Validate task ID disjointness against ALL other split manifests"
+}

@@ -1,0 +1,13 @@
+{
+  "split": "validation",
+  "tasks": {
+    "textcraft/default/10001": "739b80ed4a7aa2c58c62eb924bc908c75ed4879faf02b6f5486358d5b5d5a429",
+    "babyai_text/goto/10001": "goto:428917",
+    "babyai_text/pickup/10001": "pickup:219459",
+    "babyai_text/open/10001": "open:10001",
+    "babyai_text/putnext/10001": "putnext:114730",
+    "babyai_text/pick_up_seq_go_to/10001": "pick_up_seq_go_to:1057291",
+    "alfworld/default/10001": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-16/trial_T20190909_183724_205399/game.tw-pddl"
+  },
+  "warning": "Validate task ID disjointness against ALL other split manifests"
+}
